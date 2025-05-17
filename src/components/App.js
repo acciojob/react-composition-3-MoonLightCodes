@@ -5,12 +5,12 @@ import "../styles/App.css";
 function App() {
   return (
     <div>
-      <Tooltip text="This is a Tootip!">
-        <button>Hover over me</button>
+      <Tooltip text="Tooltip for Heading">
+        <h2>Hover over this heading</h2>
       </Tooltip>
 
-      <Tooltip text="This is a Tootip">
-        <p>Hover over this text</p>
+      <Tooltip text="Tooltip for Paragraph">
+        <p>Hover over this paragraph</p>
       </Tooltip>
     </div>
   );
